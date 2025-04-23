@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@solana-mobile/dapp-store-cli':
-        specifier: ^0.9.5
-        version: 0.9.5(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)
+        specifier: 0.10.0
+        version: 0.10.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)
 
 packages:
 
@@ -636,13 +636,13 @@ packages:
     resolution: {integrity: sha512-jYOSvM3H6sZe3CHjzD2VQNCjWBJs+4DbtwBMvUp9y5EnnwNa7NQxTeYeQw0CKCAdGGZ3QvVkyJmvbvs5M/B10A==}
     engines: {node: '>=16.0.0'}
 
-  '@solana-mobile/dapp-store-cli@0.9.5':
-    resolution: {integrity: sha512-FMuJ/x4JzOw/UpRXp8mqxihnV2BvYYZDh31vCEwo/p6E94d0fsuEIbqkOtet+/QQ3Fr1Eby0SlhhzSVhgoDYNw==}
+  '@solana-mobile/dapp-store-cli@0.10.0':
+    resolution: {integrity: sha512-kYtnM0qKqSX+VwXg1JUG90ybH7e0wX53hAYldRrk/+bD4cASmqYw5SPb3Gr2X887+oGdOWaWfoS9NyHs6Tzahg==}
     engines: {node: '>=18'}
     hasBin: true
 
-  '@solana-mobile/dapp-store-publishing-tools@0.9.5':
-    resolution: {integrity: sha512-oZNN6Ugzo6/efXsBvCY8zH077hiWRPiPKnOPSG0giZyLru4+w5dMS/DepbS/x40k2WhdPdnUdhkIla98ImLmVw==}
+  '@solana-mobile/dapp-store-publishing-tools@0.10.0':
+    resolution: {integrity: sha512-ciWf+0QcGt7ey8pK5ZHnyVLMsSe6CbWfLmuY7tmudn6v5n7iWZjAUuydfQwLIM8fY1NwDJnVD2AeTEovmL7Qrw==}
     engines: {node: '>=18'}
 
   '@solana/buffer-layout-utils@0.2.0':
@@ -1431,6 +1431,7 @@ packages:
 
   lodash.isequal@4.5.0:
     resolution: {integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==}
+    deprecated: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
@@ -3402,11 +3403,11 @@ snapshots:
       '@smithy/types': 3.4.2
       tslib: 2.7.0
 
-  '@solana-mobile/dapp-store-cli@0.9.5(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)':
+  '@solana-mobile/dapp-store-cli@0.10.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)':
     dependencies:
       '@aws-sdk/client-s3': 3.654.0
       '@metaplex-foundation/js-plugin-aws': 0.20.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)
-      '@solana-mobile/dapp-store-publishing-tools': 0.9.5(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)
+      '@solana-mobile/dapp-store-publishing-tools': 0.10.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.92.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@types/semver': 7.5.8
       ajv: 8.17.1
@@ -3434,7 +3435,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@solana-mobile/dapp-store-publishing-tools@0.9.5(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)':
+  '@solana-mobile/dapp-store-publishing-tools@0.10.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)':
     dependencies:
       '@metaplex-foundation/js': 0.20.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.68.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
