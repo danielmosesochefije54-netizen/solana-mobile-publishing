@@ -23,9 +23,9 @@ release:
   media:
     - purpose: icon
       uri: ./media/app_icon.png
-    - purpose: banner_graphic
+    - purpose: banner
       uri: ./media/banner_graphic.png
-    # - purpose: feature_graphic
+    # - purpose: featureGraphic
     #   uri: ./media/feature_graphic.png
     - purpose: screenshot
       uri: ./media/screenshot_1.jpg
