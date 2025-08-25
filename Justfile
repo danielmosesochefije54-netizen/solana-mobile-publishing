@@ -2,7 +2,7 @@
 
 NODE_URL := "solana config set --url https://api.mainnet-beta.solana.com"
 KEYPAIR := "solana-wallet/keypair.json"
-SDK_PATH := "~/Library/Android/sdk/build-tools/34.0.0"
+SDK_PATH := "~/Library/Android/sdk/build-tools/36.0.0"
 
 install:
     pnpm install
