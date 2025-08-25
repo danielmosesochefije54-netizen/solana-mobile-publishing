@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@solana-mobile/dapp-store-cli':
-        specifier: 0.10.0
-        version: 0.10.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)
+        specifier: 0.11.0
+        version: 0.11.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)
 
 packages:
 
@@ -636,13 +636,13 @@ packages:
     resolution: {integrity: sha512-jYOSvM3H6sZe3CHjzD2VQNCjWBJs+4DbtwBMvUp9y5EnnwNa7NQxTeYeQw0CKCAdGGZ3QvVkyJmvbvs5M/B10A==}
     engines: {node: '>=16.0.0'}
 
-  '@solana-mobile/dapp-store-cli@0.10.0':
-    resolution: {integrity: sha512-kYtnM0qKqSX+VwXg1JUG90ybH7e0wX53hAYldRrk/+bD4cASmqYw5SPb3Gr2X887+oGdOWaWfoS9NyHs6Tzahg==}
+  '@solana-mobile/dapp-store-cli@0.11.0':
+    resolution: {integrity: sha512-7nradI0SgPhOOg82xv1lH1OFRr3uuAuMvw1RBrtH6t++tCXVaJ3LrK2avbBmfkDUBeHeGEC/wUdjS268OGdFAA==}
     engines: {node: '>=18'}
     hasBin: true
 
-  '@solana-mobile/dapp-store-publishing-tools@0.10.0':
-    resolution: {integrity: sha512-ciWf+0QcGt7ey8pK5ZHnyVLMsSe6CbWfLmuY7tmudn6v5n7iWZjAUuydfQwLIM8fY1NwDJnVD2AeTEovmL7Qrw==}
+  '@solana-mobile/dapp-store-publishing-tools@0.11.0':
+    resolution: {integrity: sha512-PdLfbbZYLxK6pTkTxURCKKAY7xGHVa6MaXG8N0rSKnlUa0yvPcf2f1qZAbBadCP4WqeDwJbpu7QvRK7I6PrDsg==}
     engines: {node: '>=18'}
 
   '@solana/buffer-layout-utils@0.2.0':
@@ -3403,11 +3403,11 @@ snapshots:
       '@smithy/types': 3.4.2
       tslib: 2.7.0
 
-  '@solana-mobile/dapp-store-cli@0.10.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)':
+  '@solana-mobile/dapp-store-cli@0.11.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)':
     dependencies:
       '@aws-sdk/client-s3': 3.654.0
       '@metaplex-foundation/js-plugin-aws': 0.20.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)
-      '@solana-mobile/dapp-store-publishing-tools': 0.10.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)
+      '@solana-mobile/dapp-store-publishing-tools': 0.11.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.92.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@types/semver': 7.5.8
       ajv: 8.17.1
@@ -3435,7 +3435,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@solana-mobile/dapp-store-publishing-tools@0.10.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)':
+  '@solana-mobile/dapp-store-publishing-tools@0.11.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)':
     dependencies:
       '@metaplex-foundation/js': 0.20.0(arweave@1.15.1)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.2)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.68.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
