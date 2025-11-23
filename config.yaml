@@ -3,6 +3,7 @@ publisher:
   address: 9VBrwzgUfykbmV2uo6C7MQc8A1byyCQvEYqUf6vNVhR6
   website: https://gemwallet.com
   email: support@gemwallet.com
+  support_email: support@gemwallet.com
   media:
     - purpose: icon
       uri: ./media/app_icon.png
